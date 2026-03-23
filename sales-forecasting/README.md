@@ -102,13 +102,14 @@ The goal of this project is to combine technical modeling with business thinking
 ---
 
 ## 📂 Repository Structure
+````
 sales-forecasting/
 ├── sales_forecasting.ipynb
 ├── dataset.csv
 ├── excel_model.xlsx
 ├── screenshots/
 └── README.md
-
+````
 ## 🎯 Conclusion
 
 This project demonstrates how regression models can be used to generate revenue forecasts and support data-driven business decisions.
