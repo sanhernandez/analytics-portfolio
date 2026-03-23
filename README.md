@@ -1,4 +1,4 @@
-# 📊 Sandra Hernandez – Data Analytics Portfolio
+# 📊 Sandra Hernaández – Data Analytics Portfolio
 
 Welcome to my Data Analytics Portfolio.
 
