@@ -86,7 +86,11 @@ Customers with:
 
 ## 📸 Visualizations
 
-![Customer Segments](screenshots/tableau_dashboard.png)
+### Customer Segmentation (Clusters)
+![Clusters](screenshots/scatter_recency_monetary.png)
+
+### Distribution of Customers by Cluster
+![Cluster Distribution](screenshots/bar_chart_cluster.png)
 
 ---
 
