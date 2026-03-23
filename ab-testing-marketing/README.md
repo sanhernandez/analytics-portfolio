@@ -71,7 +71,7 @@ The dataset simulates marketing campaign performance with the following fields:
 ![Conversion Rate](screenshots/conversion_rate_chart.png)
 
 ### Revenue Dashboard
-![Revenue Dashboard](screenshots/revenue_dashboard.png)
+![Revenue Dashboard](screenshots/revenue_chart.png)
 
 ---
 
