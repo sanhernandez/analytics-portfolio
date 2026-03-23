@@ -1,51 +1,207 @@
-# Customer Segmentation Analysis
+# 🧩 Customer Segmentation Analysis
 
-This project demonstrates customer segmentation techniques using Python and Tableau Public, applied to a retail dataset.
+This project demonstrates customer segmentation techniques using Python and Tableau Public applied to a retail dataset.
 
-It uses clustering to identify high-value customer segments and visualize their behavior, which can guide marketing strategies.
-
----
-
-## Dataset
-
-- Retail dataset containing transactional information:
-  - InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
-- RFM metrics computed:
-  - Recency – days since last purchase
-  - Frequency – number of transactions
-  - Monetary – total spending
+The objective is to identify high-value customer segments using clustering and provide insights to support targeted marketing strategies.
 
 ---
 
-## Methods
+## 📊 Dataset
 
-- Exploratory Data Analysis (EDA) – detect outliers and missing data
-- Data Cleaning & Feature Engineering – calculated RFM metrics
-- Clustering – K-Means applied to segment customers into 4 clusters
-- Visualization – Tableau Public dashboards to display clusters and customer metrics
+Retail transactional dataset including:
 
----
+- `InvoiceNo`
+- `StockCode`
+- `Description`
+- `Quantity`
+- `InvoiceDate`
+- `UnitPrice`
+- `CustomerID`
+- `Country`
 
-## High-Value Segment
+### RFM Metrics
 
-- Low Recency + High Frequency + High Monetary = High-Value Customers
-- Marketing strategies:
-  - Loyalty programs
-  - Personalized offers
-  - VIP communications
-
----
-
-## Files
-
-- customer_segmentation.ipynb – Python notebook with clustering
-- rfm_segments.csv – dataset with RFM metrics
-- screenshots/ – images of Tableau Public dashboards
+- **Recency** – Days since last purchase  
+- **Frequency** – Number of transactions  
+- **Monetary** – Total customer spending  
 
 ---
 
-## Notes
+## 🧠 Methodology
 
-- Retail dataset was used as a proxy to demonstrate clustering techniques.
-- Methodology can also be applied to SME segmentation.
-- The original dataset was excluded due to file size limitations.
+### Data Preparation
+- Data cleaning and handling missing values  
+- Feature engineering to compute RFM metrics  
+
+### Exploratory Data Analysis (EDA)
+- Detection of outliers  
+- Analysis of customer behavior patterns  
+
+### Clustering
+- Applied **K-Means clustering**  
+- Segmented customers into 4 distinct groups  
+
+### Visualization
+- Built dashboards in **Tableau Public**  
+- Visualized clusters and key customer metrics  
+
+---
+
+## ⭐ High-Value Segment
+
+Customers with:
+
+- Low Recency  
+- High Frequency  
+- High Monetary value  
+
+👉 Represent the most valuable customers for the business
+
+---
+
+## 💡 Business Insights
+
+- A small group of customers generates a large portion of revenue  
+- Customer behavior varies significantly across segments  
+- High-value customers show strong purchase frequency and engagement  
+
+---
+
+## 🚀 Business Recommendations
+
+- Implement loyalty programs for high-value customers  
+- Use personalized offers to increase retention  
+- Design targeted campaigns based on customer segments  
+
+---
+
+## 🛠 Tools Used
+
+- Python (Pandas, Scikit-learn)  
+- K-Means Clustering  
+- Tableau Public  
+- Data Visualization  
+
+---
+
+## 📸 Visualizations
+
+![Customer Segments](screenshots/tableau_dashboard.png)
+
+---
+
+## 📂 Repository Structure
+# 🧩 Customer Segmentation Analysis
+
+This project demonstrates customer segmentation techniques using Python and Tableau Public applied to a retail dataset.
+
+The objective is to identify high-value customer segments using clustering and provide insights to support targeted marketing strategies.
+
+---
+
+## 📊 Dataset
+
+Retail transactional dataset including:
+
+- `InvoiceNo`
+- `StockCode`
+- `Description`
+- `Quantity`
+- `InvoiceDate`
+- `UnitPrice`
+- `CustomerID`
+- `Country`
+
+### RFM Metrics
+
+- **Recency** – Days since last purchase  
+- **Frequency** – Number of transactions  
+- **Monetary** – Total customer spending  
+
+---
+
+## 🧠 Methodology
+
+### Data Preparation
+- Data cleaning and handling missing values  
+- Feature engineering to compute RFM metrics  
+
+### Exploratory Data Analysis (EDA)
+- Detection of outliers  
+- Analysis of customer behavior patterns  
+
+### Clustering
+- Applied **K-Means clustering**  
+- Segmented customers into 4 distinct groups  
+
+### Visualization
+- Built dashboards in **Tableau Public**  
+- Visualized clusters and key customer metrics  
+
+---
+
+## ⭐ High-Value Segment
+
+Customers with:
+
+- Low Recency  
+- High Frequency  
+- High Monetary value  
+
+👉 Represent the most valuable customers for the business
+
+---
+
+## 💡 Business Insights
+
+- A small group of customers generates a large portion of revenue  
+- Customer behavior varies significantly across segments  
+- High-value customers show strong purchase frequency and engagement  
+
+---
+
+## 🚀 Business Recommendations
+
+- Implement loyalty programs for high-value customers  
+- Use personalized offers to increase retention  
+- Design targeted campaigns based on customer segments  
+
+---
+
+## 🛠 Tools Used
+
+- Python (Pandas, Scikit-learn)  
+- K-Means Clustering  
+- Tableau Public  
+- Data Visualization  
+
+---
+
+## 📸 Visualizations
+
+![Customer Segments](screenshots/tableau_dashboard.png)
+
+---
+
+## 📂 Repository Structure
+````
+customer-segmentation/
+├── customer_segmentation.ipynb
+├── rfm_segments.csv
+├── screenshots/
+└── README.md
+````
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates how clustering techniques can be used to identify valuable customer segments and support data-driven marketing strategies.
+
+---
+
+## ⚠️ Notes
+
+- The dataset was used as a proxy to demonstrate segmentation techniques  
+- Methodology can be applied to SMEs and real-world business scenarios  
+- Original dataset excluded due to file size limitations  
