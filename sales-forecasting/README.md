@@ -109,7 +109,7 @@ sales-forecasting/
 ├── excel_model.xlsx
 ├── screenshots/
 └── README.md
-````
+
 ## 🎯 Conclusion
 
 This project demonstrates how regression models can be used to generate revenue forecasts and support data-driven business decisions.
