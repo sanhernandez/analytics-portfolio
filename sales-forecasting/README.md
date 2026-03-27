@@ -1,27 +1,35 @@
-# 📊 Sales & Revenue Forecasting using Regression (Python + Excel)
+# 📊 Sales Forecasting using Regression Analysis
 
-This project builds a regression-based forecasting model to predict revenue trends and support campaign planning and KPI tracking. The model was developed in Python and replicated in Excel to simulate real business workflows.
+This project develops a revenue forecasting model using historical data on time trends and marketing spend. The objective is to predict future revenue and support data-driven business decision-making.
 
 ---
 
 ## 📈 Project Overview
 
-The goal of this project is to combine technical modeling with business thinking by forecasting revenue using a regression model. It demonstrates how predictions can inform real business decisions.
+The goal of this project is to build a regression-based model that forecasts revenue while combining technical modelling with business insights. It demonstrates how predictive analytics can support strategic decision-making.
 
 ---
 
 ## 🎯 Key Objectives
 
 - **Forecasting**: Predict future revenue based on historical data  
-- **Regression Modeling**: Use Linear Regression with Time and Marketing Spend  
-- **Business Insights**: Provide actionable recommendations  
+- **Regression Modelling**: Apply multiple linear regression using time and marketing spend  
+- **Business Insights**: Translate model outputs into actionable recommendations  
+
+---
+
+## 🔧 Tools & Technologies
+
+- Python (Pandas, NumPy, Scikit-learn)  
+- Matplotlib  
+- Regression Modelling  
 
 ---
 
 ## 📂 Dataset
 
 - Columns: `Date`, `Revenue`, `Marketing_Spend`  
-- Period: Jan 2022 – Jun 2023  
+- Frequency: Monthly  
 - Source: Simulated dataset  
 
 ---
@@ -29,19 +37,26 @@ The goal of this project is to combine technical modeling with business thinking
 ## 🧠 Methodology
 
 ### Data Preparation
-- Convert Date to datetime format  
-- Sort data by date  
-- Create a Time variable  
+- Converted date to datetime format  
+- Sorted data chronologically  
+- Created a time trend variable  
 
-### Modeling
-- Linear Regression:  
-  **Revenue = f(Time + Marketing Spend)**  
-- Train model on historical data  
-- Predict next 6 months  
+### Model Development
+- Applied **multiple linear regression** using:
+  - Time (trend)  
+  - Marketing Spend  
+- Trained the model to predict revenue  
 
-### Visualization
-- Actual vs Predicted Revenue  
-- Forecast trend  
+### Model Evaluation
+- Compared predicted vs actual values  
+- Calculated performance metrics:
+  - **MAE:** ~1,016  
+  - **RMSE:** ~2,121  
+- Analysed prediction error distribution  
+
+### Forecasting
+- Generated revenue forecasts for the next 6 months  
+- Visualised actual vs predicted vs future trends  
 
 ---
 
@@ -58,45 +73,37 @@ The goal of this project is to combine technical modeling with business thinking
 
 ---
 
-## 📸 Visualizations
+## 📈 Key Insights
 
-### Python Forecast
-![Python Forecast](screenshots/python_future_forecast.png)
-
-### Excel Forecast Chart
-![Excel Forecast](screenshots/excel_forecast_chart.png)
-
-### Excel Forecast Table
-![Excel Table](screenshots/excel_forecast_table.png)
+- Revenue shows a **positive growth trend over time**  
+- Marketing spend is **positively correlated with revenue**  
+- Variability suggests influence of additional external factors  
 
 ---
 
-## 📈 Executive Insights & Recommendations
+## 💡 Business Recommendations
 
-### Revenue Forecast Overview
-- Revenue is expected to grow ~20% in the next 6 months  
-- Strong positive relationship between marketing spend and revenue  
-- Overall upward trend with minor fluctuations  
+- Optimise marketing investment based on performance trends  
+- Track forecast vs actual results to improve accuracy  
+- Investigate anomalies to refine the model  
+- Use forecasts to support KPI planning and budgeting  
 
-### Key Insights
-- Consistent revenue growth over time  
-- Marketing investment drives higher sales  
-- Some anomalies suggest external influencing factors  
+---
 
-### Business Recommendations
-- Optimize marketing budget allocation  
-- Monitor forecast vs actual performance  
-- Investigate anomalies in revenue  
-- Use forecasts for KPI planning  
+## 📊 Visualisations
+
+- Actual vs Predicted Revenue  
+- Forecasted Revenue Trend  
+- Error Distribution  
 
 ---
 
 ## 🛠 Skills Demonstrated
 
 - Python (Pandas, Scikit-learn)  
-- Linear Regression Modeling  
-- Excel Forecasting  
-- Data Visualization  
+- Regression Modelling  
+- Model Evaluation (MAE, RMSE)  
+- Data Visualisation  
 - Business Analysis  
 
 ---
@@ -110,6 +117,9 @@ sales-forecasting/
 ├── screenshots/
 └── README.md
 ````
+
+---
+
 ## 🎯 Conclusion
 
-This project demonstrates how regression models can be used to generate revenue forecasts and support data-driven business decisions.
+This project demonstrates how regression models can be used to generate revenue forecasts, evaluate model performance, and support data-driven business decisions.
