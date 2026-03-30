@@ -1,113 +1,131 @@
-# 📊 Sandra Hernández – Data Analytics Portfolio
+# 📊 Sandra Hernández — Data Analytics Portfolio
 
-Welcome to my Data Analytics Portfolio.
-
-This repository showcases a collection of projects applying data analytics, machine learning, and statistical methods to solve real-world business problems. The focus is on translating data into actionable insights to support strategic decision-making.
+> *Transforming raw data into strategic decisions through machine learning, statistical analysis, and business intelligence.*
 
 ---
 
-## 🧠 Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- **Programming & Analysis**: Python (Pandas, Scikit-learn)  
-- **Databases & Querying**: SQL (SQLite)  
-- **Data Visualization**: Tableau Public  
-- **Other Tools**: Excel (forecasting & modeling)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ---
 
 ## 📁 Projects
 
-### 1️⃣ Customer Segmentation Analysis
+### 1️⃣ Sales & Revenue Forecasting ⭐ Flagship Project
+`Python` `Excel` `Regression Modeling`
 
-**Objective**  
-Segment customers to identify high-value audiences and support targeted marketing strategies.
-
-**Approach**  
-- RFM (Recency, Frequency, Monetary) analysis  
-- K-Means clustering for segmentation  
-
-**Key Outputs**  
-- Identification of high-value customer segments  
-- Behavioral insights across different customer groups  
-- Tableau dashboards visualizing cluster distribution and patterns  
-
-**Business Impact**  
-Supports personalized marketing, customer retention strategies, and revenue optimization.
-
-**Files**  
-- `customer_segmentation.ipynb`  
-- `rfm_segments.csv`  
-- `screenshots/` (Tableau dashboards)  
-
----
-
-### 2️⃣ Marketing A/B Testing & Campaign Analytics
-
-**Objective**  
-Evaluate marketing campaigns and A/B test performance to improve conversion rates and maximize ROI.
-
-**Approach**  
-- SQL-based analysis using SQLite in Jupyter  
-- Calculation of key metrics: Conversion Rate, CTR, Revenue  
-- Comparative analysis between campaign variants (A vs B)  
-
-**Key Outputs**  
-- Identification of the highest-performing campaign variant  
-- Quantitative comparison of engagement and revenue performance  
-- Tableau dashboards for campaign monitoring  
-
-**Business Impact**  
-Enables data-driven optimization of marketing strategies and budget allocation.
-
-**Files**  
-- `ab_testing_analysis.ipynb`  
-- `campaign_data.csv`  
-- `screenshots/` (Tableau dashboards)  
-
----
-
-### 3️⃣ Sales & Revenue Forecasting (Regression Models)
-
-**Objective**  
+**Objective**
 Forecast future revenue trends to support campaign planning, budgeting, and KPI tracking.
 
-**Approach**  
-- Time-series feature engineering (trend variable)  
-- Linear Regression modeling using Python  
-- Model replication in Excel for business usability  
+**Approach**
+- Built a **multiple regression model** to forecast revenue based on time trends and marketing spend
+- Generated **6-month forward projections** for strategic planning
+- Assessed model performance using error metrics: **MAE ~1,016 | RMSE ~2,121**
+- Analysed prediction error distribution to validate model reliability
+- Replicated model in **Excel** for non-technical stakeholder usability
 
-**Key Outputs**  
-- Revenue predictions for future periods  
-- Actual vs predicted comparison charts  
-- Forecast tables for decision-making  
+**Business Impact**
+Supports strategic planning, performance forecasting, and data-driven marketing investment decisions.
 
-**Business Impact**  
-Supports strategic planning, performance forecasting, and marketing investment decisions.
+**Files**
+- `sales_forecasting.ipynb`
+- `dataset.csv`
+- `excel_model.xlsx`
+- `screenshots/`
 
-**Files**  
-- `sales_forecasting.ipynb`  
-- `dataset.csv`  
-- `excel_model.xlsx`  
-- `screenshots/`  
+---
+
+### 2️⃣ A/B Testing & Campaign Analytics
+`SQL` `Python` `Tableau` `Statistical Testing`
+
+**Objective**
+Evaluate marketing campaigns and A/B test performance to improve conversion rates and maximize ROI.
+
+**Approach**
+- Designed and analysed A/B tests using **SQL (SQLite in Jupyter)**
+- Applied **statistical testing (t-tests)** to evaluate differences in conversion, CTR, and revenue
+- Calculated **statistical significance (p < 0.05)** to identify high-performing variants
+- Built **Tableau dashboards** for ongoing campaign monitoring
+
+**Business Impact**
+Enables data-driven optimization of marketing strategies and budget allocation.
+
+**Files**
+- `ab_testing_analysis.ipynb`
+- `campaign_data.csv`
+- `screenshots/`
+
+---
+
+### 3️⃣ Customer Segmentation Analysis
+`Python` `Scikit-learn` `Tableau` `Clustering`
+
+**Objective**
+Segment customers to identify high-value audiences and support targeted marketing strategies.
+
+**Approach**
+- Performed **RFM (Recency, Frequency, Monetary)** analysis for behavioral profiling
+- Applied **K-Means clustering** with feature scaling for robust segmentation
+- Determined optimal clusters using the **Elbow Method**
+- Analysed segment behaviour to inform retention and engagement strategy
+- Built **Tableau dashboards** visualising cluster distribution and patterns
+
+**Business Impact**
+Supports personalised marketing, customer retention strategies, and revenue optimisation.
+
+**Files**
+- `customer_segmentation.ipynb`
+- `rfm_segments.csv`
+- `screenshots/`
+
+---
+
+## 🎓 Certifications
+
+| Certificate | Issuer | Date |
+|---|---|---|
+| Master Statistics & Machine Learning: Intuition, Math, Code | Udemy | Mar 2026 |
+| Getting Started with R for Data Science | LinkedIn Learning | Mar 2026 |
+| Cert Prep: Excel Expert – Microsoft Office Specialist | LinkedIn Learning | Sep 2025 |
+| Career Essentials in Data Analysis by Microsoft and LinkedIn | Microsoft | Jul 2025 |
+| Tableau Certified Data Analyst Cert Prep | LinkedIn Learning | Jul 2025 |
+| Excel Essential Training (Microsoft 365) | LinkedIn Learning | Jul 2025 |
 
 ---
 
 ## 🎯 About Me
 
-I am currently developing these projects as part of my training in Business Analytics, focusing on applying data-driven methods to real-world problems.
+I'm **Sandra Hernández**, a data analytics professional focused on translating complex data into clear, actionable business insights.
 
-I aim to leverage analytical techniques to:
-- Support strategic decision-making  
-- Optimize business performance  
-- Generate actionable insights from data  
+My work sits at the intersection of **technical analysis and strategic thinking** — using machine learning, statistical methods, and visualization tools to support smarter decision-making.
+
+I'm continuously deepening my expertise across statistics, machine learning, and BI tools, with a focus on building end-to-end analytical solutions that drive real business outcomes.
 
 ---
 
 ## 🚀 Career Focus
 
-I am particularly interested in roles related to:
-- Data Analytics  
-- Marketing Analytics  
-- Business Intelligence  
+I'm actively seeking roles in:
 
-with a strong emphasis on combining technical analysis with business impact.
+- 📈 **Data Analytics**
+- 📣 **Marketing Analytics**
+- 📊 **Business Intelligence**
+
+with a strong emphasis on combining rigorous technical analysis with measurable business impact.
+
+---
+
+## 📬 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanhern%C3%A1ndez/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanhernandez)
+
